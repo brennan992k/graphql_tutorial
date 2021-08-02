@@ -1,0 +1,31 @@
+.article_post_main {
+  margin: 10px;
+  padding: 10px;
+  min-height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.article_post_main:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.13), 0 6px 20px 0 rgba(0, 0, 0, 0.13);
+  transform: scale(1.01, 1.01);
+}
+
+.article_post_main_adding {
+  justify-content: center;
+  align-items: center;
+}
+
+.article_post_main__left {
+  flex: 1;
+  background-color: springgreen;
+  margin-right: 10px;
+}
+
+.article_post_main__right {
+  flex: 2;
+}

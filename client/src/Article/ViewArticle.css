@@ -1,0 +1,25 @@
+.view_article_root {
+  display: flex;
+  justify-content: center;
+}
+
+.view_article_main {
+  height: 800px;
+}
+
+.view_article_header {
+  height: 300px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: springgreen;
+}
+.view_article_header > * {
+  margin: 10px;
+}
+
+.view_article_content {
+  margin-bottom: 10px;
+}

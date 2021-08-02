@@ -1,0 +1,16 @@
+.create_article_save_button {
+  background-color: thistle;
+  border-width: 0px;
+  width: 80%;
+  height: 60px;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.create_article_save_button:hover {
+    background-color:violet
+}
+
+.create_article_save_button:focus {
+    transform: scale(0.9, 0.9);
+}
